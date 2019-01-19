@@ -1,7 +1,7 @@
 M48
-; DRILL file {KiCad (6.0.0-rc1-dev-1307-g4363cc0be)} date Sun 13 Jan 2019 03:25:52 PM CET
+; DRILL file {KiCad (6.0.0-rc1-dev-1307-g4363cc0be)} date Sat 19 Jan 2019 06:55:16 PM CET
 ; FORMAT={-:-/ absolute / metric / decimal}
-; #@! TF.CreationDate,2019-01-13T15:25:52+01:00
+; #@! TF.CreationDate,2019-01-19T18:55:16+01:00
 ; #@! TF.GenerationSoftware,Kicad,Pcbnew,(6.0.0-rc1-dev-1307-g4363cc0be)
 ; #@! TF.FileFunction,NonPlated,1,2,NPTH
 FMAT,2
