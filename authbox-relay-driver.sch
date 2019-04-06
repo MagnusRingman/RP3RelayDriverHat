@@ -59,17 +59,6 @@ F 3 "" H 1900 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x12 J2
-U 1 1 5BFEF44D
-P 1600 2200
-F 0 "J2" H 1600 1500 50  0000 C CNN
-F 1 "Screw_Terminal_01x12" V 1700 1950 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_12-G-3.5_1x12_P3.50mm_Horizontal" H 1600 2200 50  0001 C CNN
-F 3 "~" H 1600 2200 50  0001 C CNN
-	1    1600 2200
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR0103
 U 1 1 5BFF1529
 P 2050 1500
@@ -397,7 +386,7 @@ L Device:C C4
 U 1 1 5C0F626B
 P 4950 1650
 F 0 "C4" H 5065 1696 50  0000 L CNN
-F 1 "C" H 5065 1605 50  0000 L CNN
+F 1 "100nF" H 5065 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 4988 1500 50  0001 C CNN
 F 3 "~" H 4950 1650 50  0001 C CNN
 	1    4950 1650
@@ -408,7 +397,7 @@ L Device:C C5
 U 1 1 5C0F656F
 P 5400 1650
 F 0 "C5" H 5515 1696 50  0000 L CNN
-F 1 "C" H 5515 1605 50  0000 L CNN
+F 1 "100nF" H 5515 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 5438 1500 50  0001 C CNN
 F 3 "~" H 5400 1650 50  0001 C CNN
 	1    5400 1650
@@ -535,4 +524,15 @@ Wire Wire Line
 	4550 3650 4750 3650
 Wire Wire Line
 	4550 4850 4750 4850
+$Comp
+L Connector:Screw_Terminal_01x12 J2
+U 1 1 5BFEF44D
+P 1600 2100
+F 0 "J2" H 1600 1400 50  0000 C CNN
+F 1 "Screw_Terminal_01x12" V 1700 1850 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_12-G-3.5_1x12_P3.50mm_Horizontal" H 1600 2100 50  0001 C CNN
+F 3 "~" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
