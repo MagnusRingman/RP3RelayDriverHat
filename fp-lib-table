@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "hat-library")(type "KiCad")(uri "${KIPRJMOD}/hat-library.pretty")(options "")(descr ""))
+)

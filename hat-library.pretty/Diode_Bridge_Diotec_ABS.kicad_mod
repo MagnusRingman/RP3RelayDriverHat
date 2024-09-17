@@ -1,0 +1,235 @@
+(footprint "Diode_Bridge_Diotec_ABS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD diode bridge ABS (Diotec), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf")
+	(tags "ABS MBLS")
+	(property "Reference" "D1"
+		(at -3.25 0 -90)
+		(layer "F.SilkS")
+		(uuid "4c2a6596-0108-4313-b1cd-7e62efa49409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MDB10S"
+		(at 0 3.7 180)
+		(layer "F.Fab")
+		(uuid "f8906ff6-e319-4d1f-a1fd-8a405e8c002e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Diode_Bridge_Diotec_ABS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a26a464-50bc-48b4-bf09-973137dbafc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08e78393-4e6d-426f-9f1a-a6081b947795")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1602cbb-10df-43e0-b7da-d34ad2d0a9a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.032 -2.61)
+		(end -2.032 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d50e5272-f7ce-4ea4-99a4-2631fa4cd327")
+	)
+	(fp_line
+		(start 2.032 2.6)
+		(end -2.032 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ece6214d-6051-41c2-a54d-4c630e576b31")
+	)
+	(fp_poly
+		(pts
+			(xy -3.81 -2.768) (xy -4.09 -2.768) (xy -3.81 -3.048) (xy -3.81 -2.768)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c05fafe7-36f5-4043-891f-329f9329778f")
+	)
+	(fp_line
+		(start -4.064 -2.75)
+		(end -4.064 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4a5e8b4-b729-4300-9c5d-5d7afa738e3b")
+	)
+	(fp_line
+		(start -4.064 -2.75)
+		(end 4.064 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f1c660f-2955-47a1-8225-cf8aa39f2de0")
+	)
+	(fp_line
+		(start 4.064 2.75)
+		(end -4.064 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9bc02cd-8b0d-4eca-bcc8-8588da351527")
+	)
+	(fp_line
+		(start 4.064 2.75)
+		(end 4.064 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a239246-5a1e-483a-8773-44aa95936bc0")
+	)
+	(fp_line
+		(start -2.2 -2)
+		(end -2.2 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b917e546-6249-4ee8-9f94-df7f1bc797ed")
+	)
+	(fp_line
+		(start -2.2 2.5)
+		(end 2.2 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f35a5f3-5ada-4a9c-8acd-f34d03a9292f")
+	)
+	(fp_line
+		(start -1.8 -2.5)
+		(end -2.2 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3b35945-c546-4607-977d-ecda9fbac1bb")
+	)
+	(fp_line
+		(start 2.2 -2.5)
+		(end -1.8 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12276d83-c10f-4097-94e6-907e4fdf8f6c")
+	)
+	(fp_line
+		(start 2.2 2.5)
+		(end 2.2 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65b1cbde-b6e8-4934-8705-f836022b3752")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.065 180)
+		(layer "F.Fab")
+		(uuid "58f4f303-0ad0-4280-b681-53d749a0757f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.975 -2)
+		(size 1.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2a20125d-92e6-4c4c-b2fc-7c4235374c03")
+	)
+	(pad "2" smd rect
+		(at -2.975 2)
+		(size 1.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3859035e-56dd-4c25-99e8-901c5971d014")
+	)
+	(pad "3" smd rect
+		(at 2.975 2)
+		(size 1.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dfad33e7-609e-407e-8d0d-3e3d2174d966")
+	)
+	(pad "4" smd rect
+		(at 2.975 -2)
+		(size 1.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "29ea6b68-9ee6-4273-bb43-860d38f8dccb")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_ABS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
